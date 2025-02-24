@@ -1,0 +1,25 @@
+PACKAGE = fr.kanoulier.bakefile				# Package name
+ENTRY = Bake								# Entry point class name
+SOURCEDIR = ./src/fr/kanoulier/bakefile/	# Path to the source directory
+BUILDDIR = ./build/							# Path to the build directory
+DOCDIR = ./doc/ 							# Path to the documentation directory
+
+all: clean
+	javac Banane.java
+
+clean:
+	echo $(BUILDDIR)
+
+.PHONY: all 
+
+A : B
+	size .gitignore
+
+B: F
+	size .gitignore
+
+F: Z
+	size .gitignore
+
+Z: A
+	size .gitignore

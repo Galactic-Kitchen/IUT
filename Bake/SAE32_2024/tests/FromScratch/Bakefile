@@ -1,0 +1,8 @@
+all : Damier.class Rose.class
+    echo "done"
+
+Damier.class : Damier.java
+    javac Damier.java
+
+Rose.class : Rose.java
+    javac Rose.java

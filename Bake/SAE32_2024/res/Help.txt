@@ -1,0 +1,12 @@
+
+
+[Bakefile] Usage: bake [OPTION] [TARGET]
+[Bakefile]
+[Bakefile] Options:
+[Bakefile]
+[Bakefile]      --help     Display this help
+[Bakefile]
+[Bakefile]      --version  Output version information
+[Bakefile]
+[Bakefile]      -d         Print debugging information
+
