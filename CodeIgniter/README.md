@@ -1,11 +1,14 @@
 # Projet de découverte de CodeIgniter
 
-### Objectif
+### Objectifs
 - Découvrir CodeIgniter
 - Pouvoir justifier de ses choix de conception à l'oral
 - Fournir une application pouvant permettre d'exploiter une base de données fournie
-- Mettre en utilisation les concepts PHP vus en cours (Cookies, sessions, hashs)
-- Se concentrer sur le backed
+- Mettre en utilisation les concepts PHP vus en cours (cookies, sessions, hashs)
+- Se concentrer sur le backend
+
+### Liens
+Maquette : [Lien](https://dwarves.iut-fbleau.fr/~raymondm/SAE)
 
 ### Collaborateurs
 - Nell Telechea

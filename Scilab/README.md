@@ -1,6 +1,6 @@
 # Projet de découverte de Scilab et des outils d'analyse statistiques
 
-### Objectif
+### Objectifs
 - Découvrir Scilab
 - Optimiser l'efficacité du code en utilisant autant que possible les fonctions Scilab natives
 - Nettoyer le jeu de données avant traitement
