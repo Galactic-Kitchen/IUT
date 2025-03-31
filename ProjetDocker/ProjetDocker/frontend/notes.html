@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Noteblock</title>
+    <link rel="stylesheet" href="noteList.css" />
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <h1>Noteblock</h1>
+    <section id="titleField">
+      <label for="titleOfNote">Title</label>
+      <form>
+        <input type="text" id="title" />
+      </form>
+    </section>
+    <section id="notefield">
+      <label for="notes">Notes</label>
+      <form>
+        <textarea id="note" placeholder="Today..."></textarea>
+        <button id="clearButton">Clear</button>
+      </form>
+      <ul id="notes"></ul>
+    </section>
+    <section id="button">
+      <button id="save">Save note</button>
+      <button id="back">Back</button>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+body {
+  background-color: antiquewhite;
+}
+
+button {
+  background-color: #bdb4a4;
+  border-radius: 10px;
+  min-width: 70px;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 2px 2px 2px #888888;
+}
+
+div {
+  background-color: #e7dccd;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 5px;
+  box-shadow: 3px 3px 3px #888888;
+  justify-content: center;
+}
+
+h1 {
+  background-color: antiquewhite;
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px #888888;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 50px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+#titleField {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+
+  label {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+#notefield {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  label {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+  }
+  #note {
+    font-weight: bold;
+    display: block;
+    width: 50vh; /* Largeur personnalisable */
+    height: 50vh; /* Hauteur pour plusieurs lignes */
+    padding: 10px;
+    margin: 10px;
+    resize: none; /* Désactive le redimensionnement manuel */
+    overflow-wrap: break-word; /* Coupe les mots longs */
+    word-wrap: break-word; /* Alternative pour assurer le retour à la ligne */
+    white-space: pre-wrap; /* Assure que le texte garde sa mise en forme */
+    background-color: #e6dac4;
+    border: none;
+    box-shadow: 2px 2px 2px #888888;
+    border-radius: 20px;
+  }
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+  background-color: #e6dac4;
+  border: none;
+  box-shadow: 2px 2px 2px #888888;
+  border-radius: 20px;
+}

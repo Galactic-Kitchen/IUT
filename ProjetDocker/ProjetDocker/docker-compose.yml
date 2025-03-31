@@ -1,0 +1,55 @@
+services:
+  mongodb:
+    image: mongo:6
+    container_name: mongodb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_ROOT_USER}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD}
+      MONGO_INITDB_DATABASE: db
+    networks:
+      - backend_network
+    volumes:
+      - mongodb_data:/data/db
+
+  backend:
+    build: ./backend
+
+    container_name: backend
+
+    depends_on:
+      - mongodb
+
+    environment:
+      DB_HOST: mongodb
+      MONGO_DATABASE: db
+      MONGO_USER: ${MONGO_ROOT_USER}
+      MONGO_PASSWORD: ${MONGO_ROOT_PASSWORD}
+
+    networks:
+      - backend_network
+      - frontend_network
+
+    ports:
+      - "3000:3000"
+
+  frontend:
+    build: ./frontend
+
+    container_name: frontend
+
+    depends_on:
+      - backend
+
+    networks:
+      - frontend_network
+
+    ports:
+      - "80:80"
+
+volumes:
+  mongodb_data:
+    driver: local
+
+networks:
+  backend_network:
+  frontend_network:
