@@ -10,3 +10,4 @@ Chaque projet est contenu dans un dossier avec également un README donnant cert
 * [Literomantik](https://github.com/Galactic-Kitchen/IUT/tree/master/Literomantik)
 * [Bake](https://github.com/Galactic-Kitchen/IUT/tree/master/Bake)
 * [Mini Projet Docker](https://github.com/Galactic-Kitchen/IUT/tree/master/ProjetDocker)
+* [Point Pursuit](https://github.com/Galactic-Kitchen/IUT/tree/master/Point_Pursuit)
